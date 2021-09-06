@@ -1,6 +1,7 @@
 import math
 
 #Not accomplished yet
+
 def noSuperPerfect(query, bound):
     a = 7
     b = 24
