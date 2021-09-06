@@ -1,4 +1,5 @@
 def print_formatted(number):
+
     padding = len(str(bin(number))[2:])
     for num in range(1, n + 1, 1):
         numberstr = str(num)
