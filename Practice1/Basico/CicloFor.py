@@ -11,6 +11,7 @@ else:
     print("Fin de ciclo 2")
 
 
-
+print("el for")
 for x in range(6): # For del 0 al 5
+    print(x)
     pass              #Pass se utiliza para evitar errores en ciclos for vacíos
