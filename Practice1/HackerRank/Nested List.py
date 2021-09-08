@@ -35,5 +35,3 @@ if __name__ == '__main__':
         if student[1] == secondScore[1]:
             print(student[0])
 
-
-
