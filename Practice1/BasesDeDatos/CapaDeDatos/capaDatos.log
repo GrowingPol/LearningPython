@@ -144,3 +144,11 @@
 08:28:01 PM: DEBUG [personaDAO.py:32] ID: 3, Nombre: Carlos, Apellido: Lara, Email: clara@mail.com
 08:28:01 PM: DEBUG [personaDAO.py:32] ID: 7, Nombre: Sofia, Apellido: Bergara, Email: sofi@mail.com
 08:28:01 PM: DEBUG [personaDAO.py:32] ID: 8, Nombre: Nicola, Apellido: Tesla, Email: tesla@mail.com
+10:17:25 PM: DEBUG [loggerBase.py:17] Mensaje a nivel debug
+10:17:25 PM: INFO [loggerBase.py:18] Mensaje a nivel info
+10:17:25 PM: WARNING [loggerBase.py:19] Mensaje a nivel warning
+10:17:25 PM: ERROR [loggerBase.py:20] Mensaje a nivel error
+10:17:25 PM: CRITICAL [loggerBase.py:21] Mensaje a nivel critico
+10:30:38 PM: DEBUG [Persona.py:49] ID: 1, Nombre: Juan, Apellido: Perez, Email: jperez@gmail.com
+10:30:38 PM: DEBUG [Persona.py:53] ID: None, Nombre: Pablo, Apellido: Escobar, Email: Paes@mail.com
+10:30:38 PM: DEBUG [Persona.py:57] ID: 1, Nombre: None, Apellido: None, Email: None
