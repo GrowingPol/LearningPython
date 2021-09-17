@@ -27,20 +27,59 @@ class PersonaDAO:
 
     @classmethod
     def insertar(cls,persona):
-        with Conexion.obtenerCursor() as cursor:
-            values = (persona.nombre,persona.apellido,persona.email)
-            log.debug(f"Persona a insertar: {persona}")
-            cursor.execute(cls._INSERTAR,values)
-            log.debug(f"Persona insertada: {persona}")
-            return cursor.rowcount
+        with Conexion.obtenerConexion() as conn:
+            with conn.cursor() as cursor:
+                values = (persona.nombre,persona.apellido,persona.email)
+                log.debug(f"Persona a insertar: {persona}")
+                cursor.execute(cls._INSERTAR,values)
+                log.debug(f"Persona insertada: {persona}")
 
         Conexion.cerrar()
+        return cursor.rowcount
+
+    @classmethod
+    def actualizar(cls,persona):
+        with Conexion.obtenerConexion() as conn:
+            with conn.cursor() as cursor:
+                values = (persona._nombre,persona._apellido,persona._email,persona._idPersona)
+                log.debug(f"Persona a actualizar: {persona}")
+                cursor.execute(cls._UPDATE,values)
+                log.debug(f"persona actualizada: {persona}")
+
+        Conexion.cerrar()
+        return cursor.rowcount
+
+    @classmethod
+    def delete(cls,persona):
+        with Conexion.obtenerConexion() as conn:
+            with conn.cursor() as cursor:
+                values = (persona._idPersona,)
+                log.debug(f"Persona a elminar : {persona}")
+                cursor.execute(cls._DELETE,values)
+                log.debug(f"Persona eliminada : {persona}")
+
+        Conexion.cerrar()
+        return cursor.rowcount
+
 
 if __name__ == '__main__':
-    #SELECT
+
+    # INSERT
+    # persona1 = Persona(nombre="Pancho",apellido="Barraza",email="paba1@mail.com")
+    # personas_Insertadas = PersonaDAO().insertar(persona1)
+    # log.debug(f"Personas Insertadas: {personas_Insertadas}")
+
+    #UPDATE
+    # persona1 = Persona(idPersona=12, nombre="Juancho",apellido="Liliputh",email="paba1000@mail.com")
+    # personas_Actualizadas = PersonaDAO().actualizar(persona1,)
+
+    #DELETE
+    persona1 = Persona(1,"Pancho","Lopez","Plopez@mail.com")
+    personas_Borradas = PersonaDAO().delete(persona1)
+    log.debug(f"Personas eliminadas: {personas_Borradas}")
+
+
+    # SELECT
     personas = PersonaDAO().seleccionar()
     for persona in personas:
         log.debug(f"{persona}")
-
-    # INSERT
-    persona1 = Persona("Pancho","Barraza","paba1@mail.com")

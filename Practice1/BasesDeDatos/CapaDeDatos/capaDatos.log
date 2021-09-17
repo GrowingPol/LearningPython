@@ -152,3 +152,130 @@
 10:30:38 PM: DEBUG [Persona.py:49] ID: 1, Nombre: Juan, Apellido: Perez, Email: jperez@gmail.com
 10:30:38 PM: DEBUG [Persona.py:53] ID: None, Nombre: Pablo, Apellido: Escobar, Email: Paes@mail.com
 10:30:38 PM: DEBUG [Persona.py:57] ID: 1, Nombre: None, Apellido: None, Email: None
+08:45:30 PM: DEBUG [Persona.py:49] ID: 1, Nombre: Juan, Apellido: Perez, Email: jperez@gmail.com
+08:45:30 PM: DEBUG [Persona.py:53] ID: None, Nombre: Pablo, Apellido: Escobar, Email: Paes@mail.com
+08:45:30 PM: DEBUG [Persona.py:57] ID: 1, Nombre: None, Apellido: None, Email: None
+10:14:13 AM: DEBUG [Conexion.py:24] Conexion establecida: <connection object at 0x000001DD24ADC260; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+10:14:13 AM: DEBUG [Conexion.py:39] Se abrió el cursor: <cursor object at 0x000001DD24D0BE40; closed: 0>
+10:14:13 AM: DEBUG [Conexion.py:52] El cursor se ha cerrado: None
+10:14:13 AM: DEBUG [Conexion.py:59] La conexión se ha cerrado: None
+10:14:13 AM: DEBUG [Conexion.py:54] El cursor ya se encontraba cerrado: None
+10:14:13 AM: DEBUG [Conexion.py:61] No hay conexión existente: None
+12:10:10 PM: DEBUG [Conexion.py:24] Conexion establecida: <connection object at 0x0000026AC3529260; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+12:10:10 PM: DEBUG [Conexion.py:39] Se abrió el cursor: <cursor object at 0x0000026AC3757D60; closed: 0>
+12:10:10 PM: DEBUG [Conexion.py:52] El cursor se ha cerrado: None
+12:10:10 PM: DEBUG [Conexion.py:59] La conexión se ha cerrado: None
+12:10:10 PM: DEBUG [personaDAO.py:43] ID: 1, Nombre: Pancho, Apellido: Lopez, Email: Plopez@mail.com
+12:10:10 PM: DEBUG [personaDAO.py:43] ID: 2, Nombre: Sharon, Apellido: Update, Email: SharonUp@mail.com
+12:10:10 PM: DEBUG [personaDAO.py:43] ID: 3, Nombre: Carlos, Apellido: Lara, Email: clara@mail.com
+12:10:10 PM: DEBUG [personaDAO.py:43] ID: 7, Nombre: Sofia, Apellido: Bergara, Email: sofi@mail.com
+12:10:10 PM: DEBUG [personaDAO.py:43] ID: 8, Nombre: Nicola, Apellido: Tesla, Email: tesla@mail.com
+12:12:40 PM: DEBUG [Conexion.py:24] Conexion establecida: <connection object at 0x000002AB58879260; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+12:12:40 PM: DEBUG [Conexion.py:39] Se abrió el cursor: <cursor object at 0x000002AB58AA7D60; closed: 0>
+12:12:40 PM: DEBUG [Conexion.py:52] El cursor se ha cerrado: None
+12:12:40 PM: DEBUG [Conexion.py:59] La conexión se ha cerrado: None
+12:12:40 PM: DEBUG [personaDAO.py:44] ID: 1, Nombre: Pancho, Apellido: Lopez, Email: Plopez@mail.com
+12:12:40 PM: DEBUG [personaDAO.py:44] ID: 2, Nombre: Sharon, Apellido: Update, Email: SharonUp@mail.com
+12:12:40 PM: DEBUG [personaDAO.py:44] ID: 3, Nombre: Carlos, Apellido: Lara, Email: clara@mail.com
+12:12:40 PM: DEBUG [personaDAO.py:44] ID: 7, Nombre: Sofia, Apellido: Bergara, Email: sofi@mail.com
+12:12:40 PM: DEBUG [personaDAO.py:44] ID: 8, Nombre: Nicola, Apellido: Tesla, Email: tesla@mail.com
+12:15:24 PM: DEBUG [Conexion.py:24] Conexion establecida: <connection object at 0x0000021F62DC9260; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+12:15:24 PM: DEBUG [Conexion.py:39] Se abrió el cursor: <cursor object at 0x0000021F62FF7D60; closed: 0>
+12:15:24 PM: DEBUG [Conexion.py:52] El cursor se ha cerrado: None
+12:15:24 PM: DEBUG [Conexion.py:59] La conexión se ha cerrado: None
+12:15:24 PM: DEBUG [personaDAO.py:45] ID: 1, Nombre: Pancho, Apellido: Lopez, Email: Plopez@mail.com
+12:15:24 PM: DEBUG [personaDAO.py:45] ID: 2, Nombre: Sharon, Apellido: Update, Email: SharonUp@mail.com
+12:15:24 PM: DEBUG [personaDAO.py:45] ID: 3, Nombre: Carlos, Apellido: Lara, Email: clara@mail.com
+12:15:24 PM: DEBUG [personaDAO.py:45] ID: 7, Nombre: Sofia, Apellido: Bergara, Email: sofi@mail.com
+12:15:24 PM: DEBUG [personaDAO.py:45] ID: 8, Nombre: Nicola, Apellido: Tesla, Email: tesla@mail.com
+12:17:01 PM: DEBUG [Conexion.py:24] Conexion establecida: <connection object at 0x000001CA9C5A9260; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+12:17:01 PM: DEBUG [Conexion.py:39] Se abrió el cursor: <cursor object at 0x000001CA9C7D7D60; closed: 0>
+12:17:01 PM: DEBUG [Conexion.py:52] El cursor se ha cerrado: None
+12:17:01 PM: DEBUG [Conexion.py:59] La conexión se ha cerrado: None
+12:17:01 PM: DEBUG [personaDAO.py:45] ID: 1, Nombre: Pancho, Apellido: Lopez, Email: Plopez@mail.com
+12:17:01 PM: DEBUG [personaDAO.py:45] ID: 2, Nombre: Sharon, Apellido: Update, Email: SharonUp@mail.com
+12:17:01 PM: DEBUG [personaDAO.py:45] ID: 3, Nombre: Carlos, Apellido: Lara, Email: clara@mail.com
+12:17:01 PM: DEBUG [personaDAO.py:45] ID: 7, Nombre: Sofia, Apellido: Bergara, Email: sofi@mail.com
+12:17:01 PM: DEBUG [personaDAO.py:45] ID: 8, Nombre: Nicola, Apellido: Tesla, Email: tesla@mail.com
+12:17:16 PM: DEBUG [Conexion.py:24] Conexion establecida: <connection object at 0x00000160D2109260; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+12:17:16 PM: DEBUG [Conexion.py:39] Se abrió el cursor: <cursor object at 0x00000160D2337D60; closed: 0>
+12:17:16 PM: DEBUG [Conexion.py:52] El cursor se ha cerrado: None
+12:17:16 PM: DEBUG [Conexion.py:59] La conexión se ha cerrado: None
+12:17:16 PM: DEBUG [personaDAO.py:45] ID: 1, Nombre: Pancho, Apellido: Lopez, Email: Plopez@mail.com
+12:17:16 PM: DEBUG [personaDAO.py:45] ID: 2, Nombre: Sharon, Apellido: Update, Email: SharonUp@mail.com
+12:17:16 PM: DEBUG [personaDAO.py:45] ID: 3, Nombre: Carlos, Apellido: Lara, Email: clara@mail.com
+12:17:16 PM: DEBUG [personaDAO.py:45] ID: 7, Nombre: Sofia, Apellido: Bergara, Email: sofi@mail.com
+12:17:16 PM: DEBUG [personaDAO.py:45] ID: 8, Nombre: Nicola, Apellido: Tesla, Email: tesla@mail.com
+05:26:49 PM: DEBUG [Conexion.py:24] Conexion establecida: <connection object at 0x000002693C479260; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05:26:49 PM: DEBUG [Conexion.py:39] Se abrió el cursor: <cursor object at 0x000002693C6A7D60; closed: 0>
+05:26:49 PM: DEBUG [personaDAO.py:32] Persona a insertar: ID: None, Nombre: Pancho, Apellido: Barraza, Email: paba1@mail.com
+05:26:49 PM: DEBUG [personaDAO.py:34] Persona insertada: ID: None, Nombre: Pancho, Apellido: Barraza, Email: paba1@mail.com
+05:28:35 PM: DEBUG [Conexion.py:24] Conexion establecida: <connection object at 0x000002996AFE9260; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05:28:35 PM: DEBUG [Conexion.py:39] Se abrió el cursor: <cursor object at 0x000002996B217D60; closed: 0>
+05:28:35 PM: DEBUG [personaDAO.py:32] Persona a insertar: ID: None, Nombre: Pancho, Apellido: Barraza, Email: paba1@mail.com
+05:28:35 PM: DEBUG [personaDAO.py:34] Persona insertada: ID: None, Nombre: Pancho, Apellido: Barraza, Email: paba1@mail.com
+05:28:35 PM: DEBUG [personaDAO.py:44] Personas Insertadas: 1
+05:33:20 PM: DEBUG [Conexion.py:24] Conexion establecida: <connection object at 0x000001380F1F9260; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05:33:20 PM: DEBUG [Conexion.py:39] Se abrió el cursor: <cursor object at 0x000001380F428D60; closed: 0>
+05:33:20 PM: DEBUG [personaDAO.py:32] Persona a insertar: ID: None, Nombre: Pancho, Apellido: Barraza, Email: paba1@mail.com
+05:33:20 PM: DEBUG [personaDAO.py:34] Persona insertada: ID: None, Nombre: Pancho, Apellido: Barraza, Email: paba1@mail.com
+05:33:20 PM: DEBUG [Conexion.py:52] El cursor se ha cerrado: None
+05:33:20 PM: DEBUG [Conexion.py:59] La conexión se ha cerrado: None
+05:33:20 PM: DEBUG [personaDAO.py:46] Personas Insertadas: 1
+05:33:20 PM: DEBUG [Conexion.py:24] Conexion establecida: <connection object at 0x000001380F1F9260; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05:33:20 PM: DEBUG [Conexion.py:39] Se abrió el cursor: <cursor object at 0x000001380F428D60; closed: 0>
+05:33:20 PM: DEBUG [Conexion.py:52] El cursor se ha cerrado: None
+05:33:20 PM: DEBUG [Conexion.py:59] La conexión se ha cerrado: None
+05:33:20 PM: DEBUG [personaDAO.py:51] ID: 1, Nombre: Pancho, Apellido: Lopez, Email: Plopez@mail.com
+05:33:20 PM: DEBUG [personaDAO.py:51] ID: 2, Nombre: Sharon, Apellido: Update, Email: SharonUp@mail.com
+05:33:20 PM: DEBUG [personaDAO.py:51] ID: 3, Nombre: Carlos, Apellido: Lara, Email: clara@mail.com
+05:33:20 PM: DEBUG [personaDAO.py:51] ID: 7, Nombre: Sofia, Apellido: Bergara, Email: sofi@mail.com
+05:33:20 PM: DEBUG [personaDAO.py:51] ID: 8, Nombre: Nicola, Apellido: Tesla, Email: tesla@mail.com
+05:47:49 PM: DEBUG [Conexion.py:24] Conexion establecida: <connection object at 0x000001845D4B9260; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05:49:26 PM: DEBUG [Conexion.py:24] Conexion establecida: <connection object at 0x000002288B1A9260; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05:49:26 PM: DEBUG [personaDAO.py:33] Persona a insertar: ID: None, Nombre: Pancho, Apellido: Barraza, Email: paba1@mail.com
+05:49:26 PM: DEBUG [personaDAO.py:35] Persona insertada: ID: None, Nombre: Pancho, Apellido: Barraza, Email: paba1@mail.com
+05:49:26 PM: DEBUG [Conexion.py:54] El cursor ya se encontraba cerrado: None
+05:49:26 PM: DEBUG [Conexion.py:59] La conexión se ha cerrado: None
+05:49:26 PM: DEBUG [personaDAO.py:47] Personas Insertadas: 1
+05:49:26 PM: DEBUG [Conexion.py:24] Conexion establecida: <connection object at 0x000002288B1A9260; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05:49:26 PM: DEBUG [Conexion.py:39] Se abrió el cursor: <cursor object at 0x000002288B3D7D60; closed: 0>
+05:49:26 PM: DEBUG [Conexion.py:52] El cursor se ha cerrado: None
+05:49:26 PM: DEBUG [Conexion.py:59] La conexión se ha cerrado: None
+05:49:26 PM: DEBUG [personaDAO.py:52] ID: 1, Nombre: Pancho, Apellido: Lopez, Email: Plopez@mail.com
+05:49:26 PM: DEBUG [personaDAO.py:52] ID: 2, Nombre: Sharon, Apellido: Update, Email: SharonUp@mail.com
+05:49:26 PM: DEBUG [personaDAO.py:52] ID: 3, Nombre: Carlos, Apellido: Lara, Email: clara@mail.com
+05:49:26 PM: DEBUG [personaDAO.py:52] ID: 7, Nombre: Sofia, Apellido: Bergara, Email: sofi@mail.com
+05:49:26 PM: DEBUG [personaDAO.py:52] ID: 8, Nombre: Nicola, Apellido: Tesla, Email: tesla@mail.com
+05:49:26 PM: DEBUG [personaDAO.py:52] ID: 12, Nombre: Pancho, Apellido: Barraza, Email: paba1@mail.com
+06:07:32 PM: DEBUG [Conexion.py:24] Conexion establecida: <connection object at 0x0000024C6AC5B260; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+06:07:32 PM: DEBUG [personaDAO.py:45] Persona a actualizar: ID: 12, Nombre: Juancho, Apellido: Liliputh, Email: paba1000@mail.com
+06:07:32 PM: DEBUG [personaDAO.py:47] persona actualizada: ID: 12, Nombre: Juancho, Apellido: Liliputh, Email: paba1000@mail.com
+06:07:32 PM: DEBUG [Conexion.py:54] El cursor ya se encontraba cerrado: None
+06:07:32 PM: DEBUG [Conexion.py:59] La conexión se ha cerrado: None
+06:07:33 PM: DEBUG [Conexion.py:24] Conexion establecida: <connection object at 0x0000024C6AC5B260; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+06:07:33 PM: DEBUG [Conexion.py:39] Se abrió el cursor: <cursor object at 0x0000024C6AE88D60; closed: 0>
+06:07:33 PM: DEBUG [Conexion.py:52] El cursor se ha cerrado: None
+06:07:33 PM: DEBUG [Conexion.py:59] La conexión se ha cerrado: None
+06:07:33 PM: DEBUG [personaDAO.py:67] ID: 1, Nombre: Pancho, Apellido: Lopez, Email: Plopez@mail.com
+06:07:33 PM: DEBUG [personaDAO.py:67] ID: 2, Nombre: Sharon, Apellido: Update, Email: SharonUp@mail.com
+06:07:33 PM: DEBUG [personaDAO.py:67] ID: 3, Nombre: Carlos, Apellido: Lara, Email: clara@mail.com
+06:07:33 PM: DEBUG [personaDAO.py:67] ID: 7, Nombre: Sofia, Apellido: Bergara, Email: sofi@mail.com
+06:07:33 PM: DEBUG [personaDAO.py:67] ID: 8, Nombre: Nicola, Apellido: Tesla, Email: tesla@mail.com
+06:07:33 PM: DEBUG [personaDAO.py:67] ID: 12, Nombre: Juancho, Apellido: Liliputh, Email: paba1000@mail.com
+06:15:35 PM: DEBUG [Conexion.py:24] Conexion establecida: <connection object at 0x000001C95207C260; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+06:15:35 PM: DEBUG [personaDAO.py:57] Persona a elminar : ID: 1, Nombre: Pancho, Apellido: Lopez, Email: Plopez@mail.com
+06:16:12 PM: DEBUG [Conexion.py:24] Conexion establecida: <connection object at 0x00000152E1D0C260; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+06:16:12 PM: DEBUG [personaDAO.py:57] Persona a elminar : ID: 1, Nombre: Pancho, Apellido: Lopez, Email: Plopez@mail.com
+06:16:12 PM: DEBUG [personaDAO.py:59] Persona eliminada : ID: 1, Nombre: Pancho, Apellido: Lopez, Email: Plopez@mail.com
+06:16:12 PM: DEBUG [Conexion.py:54] El cursor ya se encontraba cerrado: None
+06:16:12 PM: DEBUG [Conexion.py:59] La conexión se ha cerrado: None
+06:16:12 PM: DEBUG [Conexion.py:24] Conexion establecida: <connection object at 0x00000152E1D0C260; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+06:16:12 PM: DEBUG [Conexion.py:39] Se abrió el cursor: <cursor object at 0x00000152E1F38D60; closed: 0>
+06:16:12 PM: DEBUG [Conexion.py:52] El cursor se ha cerrado: None
+06:16:12 PM: DEBUG [Conexion.py:59] La conexión se ha cerrado: None
+06:16:12 PM: DEBUG [personaDAO.py:84] ID: 2, Nombre: Sharon, Apellido: Update, Email: SharonUp@mail.com
+06:16:12 PM: DEBUG [personaDAO.py:84] ID: 3, Nombre: Carlos, Apellido: Lara, Email: clara@mail.com
+06:16:12 PM: DEBUG [personaDAO.py:84] ID: 7, Nombre: Sofia, Apellido: Bergara, Email: sofi@mail.com
+06:16:12 PM: DEBUG [personaDAO.py:84] ID: 8, Nombre: Nicola, Apellido: Tesla, Email: tesla@mail.com
+06:16:12 PM: DEBUG [personaDAO.py:84] ID: 12, Nombre: Juancho, Apellido: Liliputh, Email: paba1000@mail.com
