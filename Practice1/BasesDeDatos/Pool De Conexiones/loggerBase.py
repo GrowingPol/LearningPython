@@ -3,7 +3,7 @@ import logging as log
 #Handler-- mandar el mensaje a un archivo
 log.basicConfig(level=log.DEBUG,
                 format='%(asctime)s: %(levelname)s [%(filename)s:%(lineno)s] %(message)s', #agrega el tiempo (fecha y hora) al mensaje de log/nivel del log/archivo donde se dió el error/ numeor de linea que lanzó el error
-                datefmt= '%I:%M:%S %p', #Hora:Minuto:Segundo AM/PM
+                datefmt= '%Y-%m-%d %I:%M:%S %p', #Hora:Minuto:Segundo AM/PM
                 handlers=[
                     log.FileHandler('capaDatos.log'),
                     log.StreamHandler()

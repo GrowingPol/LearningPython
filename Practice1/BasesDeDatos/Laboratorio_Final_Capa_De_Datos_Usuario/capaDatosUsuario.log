@@ -1,0 +1,263 @@
+2021-09-17 11:05:06 PM: ERROR [Conexion.py:30] Exception in obtenerConexion, couldn't create pool: invalid dsn: invalid connection option "username"
+
+2021-09-17 11:08:33 PM: DEBUG [UsuarioDAO.py:14] showing users
+2021-09-17 11:08:33 PM: ERROR [Conexion.py:30] Exception in obtenerConexion, couldn't create pool: invalid dsn: invalid connection option "username"
+
+2021-09-17 11:09:34 PM: DEBUG [UsuarioDAO.py:14] showing users
+2021-09-17 11:09:35 PM: DEBUG [Conexion.py:26] Pool Succesfully Created : <psycopg2.pool.SimpleConnectionPool object at 0x000001CA030BD820>
+2021-09-17 11:09:35 PM: DEBUG [Conexion.py:41] New connection created: <connection object at 0x000001CA05116AE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+2021-09-17 11:09:35 PM: DEBUG [CursorDelPool.py:12] Connection created: <connection object at 0x000001CA05116AE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+2021-09-17 11:09:35 PM: DEBUG [CursorDelPool.py:14] Cursor created: <cursor object at 0x000001CA053E9BA0; closed: 0>
+2021-09-17 11:09:35 PM: DEBUG [Conexion.py:34] Pool stare
+2021-09-17 11:09:35 PM: DEBUG [Conexion.py:50] Connection <connection object at 0x000001CA05116AE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> get back to the pool
+2021-09-17 11:09:35 PM: DEBUG [CursorDelPool.py:28] Context Manager Exit, commit done, cursor closed, connection returned to pool
+2021-09-17 11:10:26 PM: DEBUG [Conexion.py:34] Pool stare
+2021-09-17 11:10:26 PM: DEBUG [Conexion.py:41] New connection created: <connection object at 0x000001CA05116AE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+2021-09-17 11:10:26 PM: DEBUG [CursorDelPool.py:12] Connection created: <connection object at 0x000001CA05116AE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+2021-09-17 11:10:26 PM: DEBUG [CursorDelPool.py:14] Cursor created: <cursor object at 0x000001CA053E9BA0; closed: 0>
+2021-09-17 11:10:26 PM: ERROR [CursorDelPool.py:21] Rollback done, Exception in context manager CursorDelPool : <class 'psycopg2.errors.UndefinedColumn'>, column "id" does not exist
+LINE 1: ...SET "username"='Luis', "password"='luis12345' WHERE "id" = 1
+                                                               ^
+
+2021-09-17 11:11:52 PM: DEBUG [Conexion.py:26] Pool Succesfully Created : <psycopg2.pool.SimpleConnectionPool object at 0x0000023EC0B7D7C0>
+2021-09-17 11:11:52 PM: DEBUG [Conexion.py:41] New connection created: <connection object at 0x0000023EC2BE7AE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+2021-09-17 11:11:52 PM: DEBUG [CursorDelPool.py:12] Connection created: <connection object at 0x0000023EC2BE7AE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+2021-09-17 11:11:52 PM: DEBUG [CursorDelPool.py:14] Cursor created: <cursor object at 0x0000023EC2EBABA0; closed: 0>
+2021-09-17 11:11:53 PM: DEBUG [Conexion.py:34] Pool stare
+2021-09-17 11:11:53 PM: DEBUG [Conexion.py:50] Connection <connection object at 0x0000023EC2BE7AE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> get back to the pool
+2021-09-17 11:11:53 PM: DEBUG [CursorDelPool.py:28] Context Manager Exit, commit done, cursor closed, connection returned to pool
+2021-09-17 11:12:13 PM: DEBUG [UsuarioDAO.py:14] showing users
+2021-09-17 11:12:13 PM: DEBUG [Conexion.py:34] Pool stare
+2021-09-17 11:12:13 PM: DEBUG [Conexion.py:41] New connection created: <connection object at 0x0000023EC2BE7AE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+2021-09-17 11:12:13 PM: DEBUG [CursorDelPool.py:12] Connection created: <connection object at 0x0000023EC2BE7AE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+2021-09-17 11:12:13 PM: DEBUG [CursorDelPool.py:14] Cursor created: <cursor object at 0x0000023EC2EBABA0; closed: 0>
+2021-09-17 11:12:13 PM: DEBUG [Conexion.py:34] Pool stare
+2021-09-17 11:12:13 PM: DEBUG [Conexion.py:50] Connection <connection object at 0x0000023EC2BE7AE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> get back to the pool
+2021-09-17 11:12:13 PM: DEBUG [CursorDelPool.py:28] Context Manager Exit, commit done, cursor closed, connection returned to pool
+2021-09-17 11:13:36 PM: DEBUG [UsuarioDAO.py:14] showing users
+2021-09-17 11:13:36 PM: DEBUG [Conexion.py:26] Pool Succesfully Created : <psycopg2.pool.SimpleConnectionPool object at 0x00000203A413D820>
+2021-09-17 11:13:36 PM: DEBUG [Conexion.py:41] New connection created: <connection object at 0x00000203A61C7AE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+2021-09-17 11:13:36 PM: DEBUG [CursorDelPool.py:12] Connection created: <connection object at 0x00000203A61C7AE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+2021-09-17 11:13:36 PM: DEBUG [CursorDelPool.py:14] Cursor created: <cursor object at 0x00000203A649ABA0; closed: 0>
+2021-09-17 11:13:36 PM: DEBUG [Conexion.py:34] Pool stare
+2021-09-17 11:13:36 PM: DEBUG [Conexion.py:50] Connection <connection object at 0x00000203A61C7AE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> get back to the pool
+2021-09-17 11:13:36 PM: DEBUG [CursorDelPool.py:28] Context Manager Exit, commit done, cursor closed, connection returned to pool
+2021-09-17 11:14:27 PM: DEBUG [Conexion.py:26] Pool Succesfully Created : <psycopg2.pool.SimpleConnectionPool object at 0x000001236D4ED7C0>
+2021-09-17 11:14:27 PM: DEBUG [Conexion.py:41] New connection created: <connection object at 0x000001236F53BAE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+2021-09-17 11:14:27 PM: DEBUG [CursorDelPool.py:12] Connection created: <connection object at 0x000001236F53BAE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+2021-09-17 11:14:27 PM: DEBUG [CursorDelPool.py:14] Cursor created: <cursor object at 0x000001236F7FDBA0; closed: 0>
+2021-09-17 11:14:27 PM: DEBUG [Conexion.py:34] Pool stare
+2021-09-17 11:14:27 PM: DEBUG [Conexion.py:50] Connection <connection object at 0x000001236F53BAE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> get back to the pool
+2021-09-17 11:14:27 PM: DEBUG [CursorDelPool.py:28] Context Manager Exit, commit done, cursor closed, connection returned to pool
+2021-09-18 08:19:19 AM: DEBUG [UsuarioDAO.py:14] showing users
+2021-09-18 08:19:19 AM: DEBUG [Conexion.py:26] Pool Succesfully Created : <psycopg2.pool.SimpleConnectionPool object at 0x0000025D5783EF70>
+2021-09-18 08:19:19 AM: DEBUG [Conexion.py:41] New connection created: <connection object at 0x0000025D593D8AE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+2021-09-18 08:19:19 AM: DEBUG [CursorDelPool.py:12] Connection created: <connection object at 0x0000025D593D8AE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+2021-09-18 08:19:19 AM: DEBUG [CursorDelPool.py:14] Cursor created: <cursor object at 0x0000025D596A8C80; closed: 0>
+2021-09-18 08:19:19 AM: DEBUG [Conexion.py:34] Pool stare
+2021-09-18 08:19:19 AM: DEBUG [Conexion.py:50] Connection <connection object at 0x0000025D593D8AE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> get back to the pool
+2021-09-18 08:19:19 AM: DEBUG [CursorDelPool.py:28] Context Manager Exit, commit done, cursor closed, connection returned to pool
+2021-09-18 08:20:01 AM: DEBUG [Conexion.py:34] Pool stare
+2021-09-18 08:20:01 AM: DEBUG [Conexion.py:41] New connection created: <connection object at 0x0000025D593D8AE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+2021-09-18 08:20:01 AM: DEBUG [CursorDelPool.py:12] Connection created: <connection object at 0x0000025D593D8AE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+2021-09-18 08:20:01 AM: DEBUG [CursorDelPool.py:14] Cursor created: <cursor object at 0x0000025D596A8C80; closed: 0>
+2021-09-18 08:20:01 AM: DEBUG [Conexion.py:34] Pool stare
+2021-09-18 08:20:01 AM: DEBUG [Conexion.py:50] Connection <connection object at 0x0000025D593D8AE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> get back to the pool
+2021-09-18 08:20:01 AM: DEBUG [CursorDelPool.py:28] Context Manager Exit, commit done, cursor closed, connection returned to pool
+2021-09-18 08:20:42 AM: DEBUG [Conexion.py:34] Pool stare
+2021-09-18 08:20:42 AM: DEBUG [Conexion.py:41] New connection created: <connection object at 0x0000025D593D8AE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+2021-09-18 08:20:42 AM: DEBUG [CursorDelPool.py:12] Connection created: <connection object at 0x0000025D593D8AE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+2021-09-18 08:20:42 AM: DEBUG [CursorDelPool.py:14] Cursor created: <cursor object at 0x0000025D596A8C80; closed: 0>
+2021-09-18 08:20:42 AM: DEBUG [Conexion.py:34] Pool stare
+2021-09-18 08:20:42 AM: DEBUG [Conexion.py:50] Connection <connection object at 0x0000025D593D8AE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> get back to the pool
+2021-09-18 08:20:42 AM: DEBUG [CursorDelPool.py:28] Context Manager Exit, commit done, cursor closed, connection returned to pool
+2021-09-18 08:21:02 AM: DEBUG [Conexion.py:34] Pool stare
+2021-09-18 08:21:02 AM: DEBUG [Conexion.py:41] New connection created: <connection object at 0x0000025D593D8AE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+2021-09-18 08:21:02 AM: DEBUG [CursorDelPool.py:12] Connection created: <connection object at 0x0000025D593D8AE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+2021-09-18 08:21:02 AM: DEBUG [CursorDelPool.py:14] Cursor created: <cursor object at 0x0000025D596A8C80; closed: 0>
+2021-09-18 08:21:02 AM: DEBUG [Conexion.py:34] Pool stare
+2021-09-18 08:21:02 AM: DEBUG [Conexion.py:50] Connection <connection object at 0x0000025D593D8AE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> get back to the pool
+2021-09-18 08:21:02 AM: DEBUG [CursorDelPool.py:28] Context Manager Exit, commit done, cursor closed, connection returned to pool
+2021-09-18 08:21:04 AM: DEBUG [UsuarioDAO.py:14] showing users
+2021-09-18 08:21:04 AM: DEBUG [Conexion.py:34] Pool stare
+2021-09-18 08:21:04 AM: DEBUG [Conexion.py:41] New connection created: <connection object at 0x0000025D593D8AE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+2021-09-18 08:21:04 AM: DEBUG [CursorDelPool.py:12] Connection created: <connection object at 0x0000025D593D8AE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+2021-09-18 08:21:04 AM: DEBUG [CursorDelPool.py:14] Cursor created: <cursor object at 0x0000025D596A8C80; closed: 0>
+2021-09-18 08:21:04 AM: DEBUG [Conexion.py:34] Pool stare
+2021-09-18 08:21:04 AM: DEBUG [Conexion.py:50] Connection <connection object at 0x0000025D593D8AE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> get back to the pool
+2021-09-18 08:21:04 AM: DEBUG [CursorDelPool.py:28] Context Manager Exit, commit done, cursor closed, connection returned to pool
+2021-09-18 08:26:02 AM: DEBUG [UsuarioDAO.py:14] showing users
+2021-09-18 08:26:02 AM: DEBUG [Conexion.py:34] Pool stare
+2021-09-18 08:26:02 AM: DEBUG [Conexion.py:41] New connection created: <connection object at 0x0000025D593D8AE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+2021-09-18 08:26:02 AM: DEBUG [CursorDelPool.py:12] Connection created: <connection object at 0x0000025D593D8AE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+2021-09-18 08:26:02 AM: DEBUG [CursorDelPool.py:14] Cursor created: <cursor object at 0x0000025D596A8C80; closed: 0>
+2021-09-18 08:26:02 AM: DEBUG [Conexion.py:34] Pool stare
+2021-09-18 08:26:02 AM: DEBUG [Conexion.py:50] Connection <connection object at 0x0000025D593D8AE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> get back to the pool
+2021-09-18 08:26:02 AM: DEBUG [CursorDelPool.py:28] Context Manager Exit, commit done, cursor closed, connection returned to pool
+2021-09-18 08:27:16 AM: DEBUG [UsuarioDAO.py:14] showing users
+2021-09-18 08:27:17 AM: DEBUG [Conexion.py:26] Pool Succesfully Created : <psycopg2.pool.SimpleConnectionPool object at 0x000002347CD1EF70>
+2021-09-18 08:27:17 AM: DEBUG [Conexion.py:41] New connection created: <connection object at 0x000002347E8C8AE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+2021-09-18 08:27:17 AM: DEBUG [CursorDelPool.py:12] Connection created: <connection object at 0x000002347E8C8AE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+2021-09-18 08:27:17 AM: DEBUG [CursorDelPool.py:14] Cursor created: <cursor object at 0x000002347EB98C80; closed: 0>
+2021-09-18 08:27:17 AM: DEBUG [Conexion.py:34] Pool stare
+2021-09-18 08:27:17 AM: DEBUG [Conexion.py:50] Connection <connection object at 0x000002347E8C8AE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> get back to the pool
+2021-09-18 08:27:17 AM: DEBUG [CursorDelPool.py:28] Context Manager Exit, commit done, cursor closed, connection returned to pool
+2021-09-18 08:27:37 AM: DEBUG [Conexion.py:34] Pool stare
+2021-09-18 08:27:37 AM: DEBUG [Conexion.py:41] New connection created: <connection object at 0x000002347E8C8AE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+2021-09-18 08:27:37 AM: DEBUG [CursorDelPool.py:12] Connection created: <connection object at 0x000002347E8C8AE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+2021-09-18 08:27:37 AM: DEBUG [CursorDelPool.py:14] Cursor created: <cursor object at 0x000002347EB98C80; closed: 0>
+2021-09-18 08:27:37 AM: DEBUG [Conexion.py:34] Pool stare
+2021-09-18 08:27:37 AM: DEBUG [Conexion.py:50] Connection <connection object at 0x000002347E8C8AE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> get back to the pool
+2021-09-18 08:27:37 AM: DEBUG [CursorDelPool.py:28] Context Manager Exit, commit done, cursor closed, connection returned to pool
+2021-09-18 08:27:41 AM: DEBUG [UsuarioDAO.py:14] showing users
+2021-09-18 08:27:41 AM: DEBUG [Conexion.py:34] Pool stare
+2021-09-18 08:27:41 AM: DEBUG [Conexion.py:41] New connection created: <connection object at 0x000002347E8C8AE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+2021-09-18 08:27:41 AM: DEBUG [CursorDelPool.py:12] Connection created: <connection object at 0x000002347E8C8AE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+2021-09-18 08:27:41 AM: DEBUG [CursorDelPool.py:14] Cursor created: <cursor object at 0x000002347EB98C80; closed: 0>
+2021-09-18 08:27:41 AM: DEBUG [Conexion.py:34] Pool stare
+2021-09-18 08:27:41 AM: DEBUG [Conexion.py:50] Connection <connection object at 0x000002347E8C8AE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> get back to the pool
+2021-09-18 08:27:41 AM: DEBUG [CursorDelPool.py:28] Context Manager Exit, commit done, cursor closed, connection returned to pool
+2021-09-18 08:31:40 AM: DEBUG [Conexion.py:26] Pool Succesfully Created : <psycopg2.pool.SimpleConnectionPool object at 0x000001D411332340>
+2021-09-18 08:31:40 AM: DEBUG [Conexion.py:41] New connection created: <connection object at 0x000001D412B67AE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+2021-09-18 08:31:40 AM: DEBUG [CursorDelPool.py:12] Connection created: <connection object at 0x000001D412B67AE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+2021-09-18 08:31:40 AM: DEBUG [CursorDelPool.py:14] Cursor created: <cursor object at 0x000001D412E2A9E0; closed: 0>
+2021-09-18 08:31:40 AM: DEBUG [Conexion.py:34] Pool stare
+2021-09-18 08:31:40 AM: DEBUG [Conexion.py:50] Connection <connection object at 0x000001D412B67AE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> get back to the pool
+2021-09-18 08:31:40 AM: DEBUG [CursorDelPool.py:28] Context Manager Exit, commit done, cursor closed, connection returned to pool
+2021-09-18 08:33:13 AM: DEBUG [UsuarioDAO.py:14] showing users
+2021-09-18 08:33:13 AM: DEBUG [Conexion.py:26] Pool Succesfully Created : <psycopg2.pool.SimpleConnectionPool object at 0x000002478701EF70>
+2021-09-18 08:33:13 AM: DEBUG [Conexion.py:41] New connection created: <connection object at 0x0000024788BB8AE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+2021-09-18 08:33:13 AM: DEBUG [CursorDelPool.py:12] Connection created: <connection object at 0x0000024788BB8AE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+2021-09-18 08:33:13 AM: DEBUG [CursorDelPool.py:14] Cursor created: <cursor object at 0x0000024788E87C80; closed: 0>
+2021-09-18 08:33:13 AM: DEBUG [Conexion.py:34] Pool stare
+2021-09-18 08:33:13 AM: DEBUG [Conexion.py:50] Connection <connection object at 0x0000024788BB8AE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> get back to the pool
+2021-09-18 08:33:13 AM: DEBUG [CursorDelPool.py:28] Context Manager Exit, commit done, cursor closed, connection returned to pool
+2021-09-18 08:33:33 AM: DEBUG [Conexion.py:34] Pool stare
+2021-09-18 08:33:33 AM: DEBUG [Conexion.py:41] New connection created: <connection object at 0x0000024788BB8AE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+2021-09-18 08:33:33 AM: DEBUG [CursorDelPool.py:12] Connection created: <connection object at 0x0000024788BB8AE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+2021-09-18 08:33:33 AM: DEBUG [CursorDelPool.py:14] Cursor created: <cursor object at 0x0000024788E87C80; closed: 0>
+2021-09-18 08:33:33 AM: DEBUG [Conexion.py:34] Pool stare
+2021-09-18 08:33:33 AM: DEBUG [Conexion.py:50] Connection <connection object at 0x0000024788BB8AE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> get back to the pool
+2021-09-18 08:33:33 AM: DEBUG [CursorDelPool.py:28] Context Manager Exit, commit done, cursor closed, connection returned to pool
+2021-09-18 08:35:34 AM: DEBUG [Conexion.py:26] Pool Succesfully Created : <psycopg2.pool.SimpleConnectionPool object at 0x000001563E7FEF10>
+2021-09-18 08:35:34 AM: DEBUG [Conexion.py:41] New connection created: <connection object at 0x000001564038CAE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+2021-09-18 08:35:34 AM: DEBUG [CursorDelPool.py:12] Connection created: <connection object at 0x000001564038CAE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+2021-09-18 08:35:34 AM: DEBUG [CursorDelPool.py:14] Cursor created: <cursor object at 0x000001564064CC80; closed: 0>
+2021-09-18 08:35:34 AM: DEBUG [Conexion.py:34] Pool stare
+2021-09-18 08:35:34 AM: DEBUG [Conexion.py:50] Connection <connection object at 0x000001564038CAE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> get back to the pool
+2021-09-18 08:35:34 AM: DEBUG [CursorDelPool.py:28] Context Manager Exit, commit done, cursor closed, connection returned to pool
+2021-09-18 08:38:24 AM: DEBUG [UsuarioDAO.py:14] showing users
+2021-09-18 08:38:25 AM: DEBUG [Conexion.py:26] Pool Succesfully Created : <psycopg2.pool.SimpleConnectionPool object at 0x0000026F4246EF70>
+2021-09-18 08:38:25 AM: DEBUG [Conexion.py:41] New connection created: <connection object at 0x0000026F43FCBAE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+2021-09-18 08:38:25 AM: DEBUG [CursorDelPool.py:12] Connection created: <connection object at 0x0000026F43FCBAE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+2021-09-18 08:38:25 AM: DEBUG [CursorDelPool.py:14] Cursor created: <cursor object at 0x0000026F4427CC80; closed: 0>
+2021-09-18 08:38:25 AM: DEBUG [Conexion.py:34] Pool stare
+2021-09-18 08:38:25 AM: DEBUG [Conexion.py:50] Connection <connection object at 0x0000026F43FCBAE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> get back to the pool
+2021-09-18 08:38:25 AM: DEBUG [CursorDelPool.py:28] Context Manager Exit, commit done, cursor closed, connection returned to pool
+2021-09-18 09:09:10 AM: DEBUG [UsuarioDAO.py:14] showing users
+2021-09-18 09:09:11 AM: DEBUG [Conexion.py:26] Pool Succesfully Created : <psycopg2.pool.SimpleConnectionPool object at 0x0000020A6806EF70>
+2021-09-18 09:09:11 AM: DEBUG [Conexion.py:41] New connection created: <connection object at 0x0000020A69E18AE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+2021-09-18 09:09:11 AM: DEBUG [CursorDelPool.py:12] Connection created: <connection object at 0x0000020A69E18AE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+2021-09-18 09:09:11 AM: DEBUG [CursorDelPool.py:14] Cursor created: <cursor object at 0x0000020A69EE7C80; closed: 0>
+2021-09-18 09:09:11 AM: DEBUG [Conexion.py:34] Pool stare
+2021-09-18 09:09:11 AM: DEBUG [Conexion.py:50] Connection <connection object at 0x0000020A69E18AE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> get back to the pool
+2021-09-18 09:09:11 AM: DEBUG [CursorDelPool.py:28] Context Manager Exit, commit done, cursor closed, connection returned to pool
+2021-09-18 09:10:37 AM: DEBUG [UsuarioDAO.py:14] showing users
+2021-09-18 09:10:37 AM: DEBUG [Conexion.py:26] Pool Succesfully Created : <psycopg2.pool.SimpleConnectionPool object at 0x000001F39013EF70>
+2021-09-18 09:10:37 AM: DEBUG [Conexion.py:41] New connection created: <connection object at 0x000001F3921B8AE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+2021-09-18 09:10:37 AM: DEBUG [CursorDelPool.py:12] Connection created: <connection object at 0x000001F3921B8AE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+2021-09-18 09:10:37 AM: DEBUG [CursorDelPool.py:14] Cursor created: <cursor object at 0x000001F392487C80; closed: 0>
+2021-09-18 09:10:37 AM: DEBUG [Conexion.py:34] Pool stare
+2021-09-18 09:10:37 AM: DEBUG [Conexion.py:50] Connection <connection object at 0x000001F3921B8AE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> get back to the pool
+2021-09-18 09:10:37 AM: DEBUG [CursorDelPool.py:28] Context Manager Exit, commit done, cursor closed, connection returned to pool
+2021-09-18 09:11:22 AM: DEBUG [UsuarioDAO.py:14] showing users
+2021-09-18 09:11:22 AM: DEBUG [Conexion.py:26] Pool Succesfully Created : <psycopg2.pool.SimpleConnectionPool object at 0x00000290D0E1EF70>
+2021-09-18 09:11:22 AM: DEBUG [Conexion.py:41] New connection created: <connection object at 0x00000290D29B7AE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+2021-09-18 09:11:22 AM: DEBUG [CursorDelPool.py:12] Connection created: <connection object at 0x00000290D29B7AE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+2021-09-18 09:11:22 AM: DEBUG [CursorDelPool.py:14] Cursor created: <cursor object at 0x00000290D2C87C80; closed: 0>
+2021-09-18 09:11:22 AM: DEBUG [Conexion.py:34] Pool stare
+2021-09-18 09:11:22 AM: DEBUG [Conexion.py:50] Connection <connection object at 0x00000290D29B7AE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> get back to the pool
+2021-09-18 09:11:22 AM: DEBUG [CursorDelPool.py:28] Context Manager Exit, commit done, cursor closed, connection returned to pool
+2021-09-18 09:11:48 AM: DEBUG [UsuarioDAO.py:14] showing users
+2021-09-18 09:11:48 AM: DEBUG [Conexion.py:26] Pool Succesfully Created : <psycopg2.pool.SimpleConnectionPool object at 0x000001FDC54DEF70>
+2021-09-18 09:11:48 AM: DEBUG [Conexion.py:41] New connection created: <connection object at 0x000001FDC7557AE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+2021-09-18 09:11:48 AM: DEBUG [CursorDelPool.py:12] Connection created: <connection object at 0x000001FDC7557AE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+2021-09-18 09:11:48 AM: DEBUG [CursorDelPool.py:14] Cursor created: <cursor object at 0x000001FDC7827C80; closed: 0>
+2021-09-18 09:11:48 AM: DEBUG [Conexion.py:34] Pool stare
+2021-09-18 09:11:48 AM: DEBUG [Conexion.py:50] Connection <connection object at 0x000001FDC7557AE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> get back to the pool
+2021-09-18 09:11:48 AM: DEBUG [CursorDelPool.py:28] Context Manager Exit, commit done, cursor closed, connection returned to pool
+2021-09-18 09:17:35 AM: DEBUG [UsuarioDAO.py:14] showing users
+2021-09-18 09:17:35 AM: DEBUG [Conexion.py:26] Pool Succesfully Created : <psycopg2.pool.SimpleConnectionPool object at 0x00000203BF66EF70>
+2021-09-18 09:17:35 AM: DEBUG [Conexion.py:41] New connection created: <connection object at 0x00000203C11ECAE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+2021-09-18 09:17:35 AM: DEBUG [CursorDelPool.py:12] Connection created: <connection object at 0x00000203C11ECAE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+2021-09-18 09:17:35 AM: DEBUG [CursorDelPool.py:14] Cursor created: <cursor object at 0x00000203C14ADBA0; closed: 0>
+2021-09-18 09:17:35 AM: DEBUG [Conexion.py:34] Pool stare
+2021-09-18 09:17:35 AM: DEBUG [Conexion.py:50] Connection <connection object at 0x00000203C11ECAE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> get back to the pool
+2021-09-18 09:17:35 AM: DEBUG [CursorDelPool.py:28] Context Manager Exit, commit done, cursor closed, connection returned to pool
+2021-09-18 09:17:35 AM: DEBUG [MenuAppUsuario.py:19] User List readed
+2021-09-18 09:18:14 AM: DEBUG [Conexion.py:34] Pool stare
+2021-09-18 09:18:14 AM: DEBUG [Conexion.py:41] New connection created: <connection object at 0x00000203C11ECAE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+2021-09-18 09:18:14 AM: DEBUG [CursorDelPool.py:12] Connection created: <connection object at 0x00000203C11ECAE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+2021-09-18 09:18:14 AM: DEBUG [CursorDelPool.py:14] Cursor created: <cursor object at 0x00000203C14ADBA0; closed: 0>
+2021-09-18 09:18:14 AM: DEBUG [Conexion.py:34] Pool stare
+2021-09-18 09:18:14 AM: DEBUG [Conexion.py:50] Connection <connection object at 0x00000203C11ECAE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> get back to the pool
+2021-09-18 09:18:14 AM: DEBUG [CursorDelPool.py:28] Context Manager Exit, commit done, cursor closed, connection returned to pool
+2021-09-18 09:18:14 AM: DEBUG [MenuAppUsuario.py:26] User create done: ID: 3, Username: Gulliver. password: asaroso
+2021-09-18 09:18:28 AM: DEBUG [UsuarioDAO.py:14] showing users
+2021-09-18 09:18:28 AM: DEBUG [Conexion.py:34] Pool stare
+2021-09-18 09:18:28 AM: DEBUG [Conexion.py:41] New connection created: <connection object at 0x00000203C11ECAE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+2021-09-18 09:18:28 AM: DEBUG [CursorDelPool.py:12] Connection created: <connection object at 0x00000203C11ECAE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+2021-09-18 09:18:28 AM: DEBUG [CursorDelPool.py:14] Cursor created: <cursor object at 0x00000203C14ADBA0; closed: 0>
+2021-09-18 09:18:28 AM: DEBUG [Conexion.py:34] Pool stare
+2021-09-18 09:18:28 AM: DEBUG [Conexion.py:50] Connection <connection object at 0x00000203C11ECAE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> get back to the pool
+2021-09-18 09:18:28 AM: DEBUG [CursorDelPool.py:28] Context Manager Exit, commit done, cursor closed, connection returned to pool
+2021-09-18 09:18:28 AM: DEBUG [MenuAppUsuario.py:19] User List readed
+2021-09-18 09:19:22 AM: DEBUG [Conexion.py:34] Pool stare
+2021-09-18 09:19:22 AM: DEBUG [Conexion.py:41] New connection created: <connection object at 0x00000203C11ECAE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+2021-09-18 09:19:22 AM: DEBUG [CursorDelPool.py:12] Connection created: <connection object at 0x00000203C11ECAE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+2021-09-18 09:19:22 AM: DEBUG [CursorDelPool.py:14] Cursor created: <cursor object at 0x00000203C14ADBA0; closed: 0>
+2021-09-18 09:19:22 AM: DEBUG [Conexion.py:34] Pool stare
+2021-09-18 09:19:22 AM: DEBUG [Conexion.py:50] Connection <connection object at 0x00000203C11ECAE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> get back to the pool
+2021-09-18 09:19:22 AM: DEBUG [CursorDelPool.py:28] Context Manager Exit, commit done, cursor closed, connection returned to pool
+2021-09-18 09:19:22 AM: DEBUG [MenuAppUsuario.py:32] User updated: ID: 2, Username: German. password: polinesio
+2021-09-18 09:19:27 AM: DEBUG [UsuarioDAO.py:14] showing users
+2021-09-18 09:19:27 AM: DEBUG [Conexion.py:34] Pool stare
+2021-09-18 09:19:27 AM: DEBUG [Conexion.py:41] New connection created: <connection object at 0x00000203C11ECAE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+2021-09-18 09:19:27 AM: DEBUG [CursorDelPool.py:12] Connection created: <connection object at 0x00000203C11ECAE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+2021-09-18 09:19:27 AM: DEBUG [CursorDelPool.py:14] Cursor created: <cursor object at 0x00000203C14ADBA0; closed: 0>
+2021-09-18 09:19:27 AM: DEBUG [Conexion.py:34] Pool stare
+2021-09-18 09:19:27 AM: DEBUG [Conexion.py:50] Connection <connection object at 0x00000203C11ECAE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> get back to the pool
+2021-09-18 09:19:27 AM: DEBUG [CursorDelPool.py:28] Context Manager Exit, commit done, cursor closed, connection returned to pool
+2021-09-18 09:19:27 AM: DEBUG [MenuAppUsuario.py:19] User List readed
+2021-09-18 09:21:19 AM: DEBUG [Conexion.py:34] Pool stare
+2021-09-18 09:21:19 AM: DEBUG [Conexion.py:41] New connection created: <connection object at 0x00000203C11ECAE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+2021-09-18 09:21:19 AM: DEBUG [CursorDelPool.py:12] Connection created: <connection object at 0x00000203C11ECAE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+2021-09-18 09:21:19 AM: DEBUG [CursorDelPool.py:14] Cursor created: <cursor object at 0x00000203C14ADBA0; closed: 0>
+2021-09-18 09:21:19 AM: DEBUG [Conexion.py:34] Pool stare
+2021-09-18 09:21:19 AM: DEBUG [Conexion.py:50] Connection <connection object at 0x00000203C11ECAE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> get back to the pool
+2021-09-18 09:21:19 AM: DEBUG [CursorDelPool.py:28] Context Manager Exit, commit done, cursor closed, connection returned to pool
+2021-09-18 09:21:19 AM: DEBUG [MenuAppUsuario.py:38] User Deleted: ID: 1, Username: None. password: None
+2021-09-18 09:21:31 AM: DEBUG [UsuarioDAO.py:14] showing users
+2021-09-18 09:21:31 AM: DEBUG [Conexion.py:34] Pool stare
+2021-09-18 09:21:31 AM: DEBUG [Conexion.py:41] New connection created: <connection object at 0x00000203C11ECAE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+2021-09-18 09:21:31 AM: DEBUG [CursorDelPool.py:12] Connection created: <connection object at 0x00000203C11ECAE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+2021-09-18 09:21:31 AM: DEBUG [CursorDelPool.py:14] Cursor created: <cursor object at 0x00000203C14ADBA0; closed: 0>
+2021-09-18 09:21:31 AM: DEBUG [Conexion.py:34] Pool stare
+2021-09-18 09:21:31 AM: DEBUG [Conexion.py:50] Connection <connection object at 0x00000203C11ECAE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> get back to the pool
+2021-09-18 09:21:31 AM: DEBUG [CursorDelPool.py:28] Context Manager Exit, commit done, cursor closed, connection returned to pool
+2021-09-18 09:21:31 AM: DEBUG [MenuAppUsuario.py:19] User List readed
+2021-09-18 09:21:37 AM: DEBUG [MenuAppUsuario.py:41] Exiting Program
+2021-09-18 09:33:03 AM: DEBUG [UsuarioDAO.py:14] showing users
+2021-09-18 09:33:03 AM: DEBUG [Conexion.py:26] Pool Succesfully Created : <psycopg2.pool.SimpleConnectionPool object at 0x000002244EA3EF70>
+2021-09-18 09:33:03 AM: DEBUG [Conexion.py:41] New connection created: <connection object at 0x0000022450A8CAE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+2021-09-18 09:33:03 AM: DEBUG [CursorDelPool.py:12] Connection created: <connection object at 0x0000022450A8CAE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+2021-09-18 09:33:03 AM: DEBUG [CursorDelPool.py:14] Cursor created: <cursor object at 0x0000022450D4DBA0; closed: 0>
+2021-09-18 09:33:03 AM: DEBUG [Conexion.py:34] Pool stare
+2021-09-18 09:33:03 AM: DEBUG [Conexion.py:50] Connection <connection object at 0x0000022450A8CAE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> get back to the pool
+2021-09-18 09:33:03 AM: DEBUG [CursorDelPool.py:28] Context Manager Exit, commit done, cursor closed, connection returned to pool
+2021-09-18 09:33:03 AM: INFO [MenuAppUsuario.py:19] User List readed
+2021-09-18 09:45:31 AM: INFO [MenuAppUsuario.py:19] User List readed
+2021-09-18 09:45:58 AM: INFO [MenuAppUsuario.py:19] User List readed
+2021-09-18 09:46:21 AM: INFO [MenuAppUsuario.py:27] User create done: ID: 1212, Username: 12121, password: 1212
+2021-09-18 09:46:44 AM: ERROR [MenuAppUsuario.py:29] Exception in Insertar Usuario: invalid literal for int() with base 10: 'salinas'
+2021-09-18 09:51:10 AM: INFO [MenuAppUsuario.py:19] User List readed
